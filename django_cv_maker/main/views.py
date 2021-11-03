@@ -10,9 +10,7 @@ from .models import (
 
 from django.views import generic
 
-
 from . forms import ContactForm
-
 
 class IndexView(generic.TemplateView):
 	template_name = "main/index.html"
